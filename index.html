@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Privacy error</title>
+  <style>
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 100px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    h1 {
+      font-size: 24px;
+      color: #d32f2f;
+    }
+    .error-code {
+      color: #888;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    .desc {
+      margin-top: 20px;
+      font-size: 16px;
+    }
+    button {
+      margin-top: 30px;
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #155ab6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Your connection is not private</h1>
+    <div class="desc">
+      Attackers might be trying to steal your information from <strong>example.com</strong> (for example, passwords, messages, or credit cards).
+    </div>
+    <div class="error-code">NET::ERR_CERT_AUTHORITY_INVALID</div>
+    <button onclick="alert('This is just a mockup.')">Advanced</button>
+  </div>
+</body>
+</html>
